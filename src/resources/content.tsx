@@ -2,54 +2,54 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  firstName: "Jay Prasad",
+  lastName: "Majhi",
+  name: `Jay Prasad Majhi`,
+  role: "Full-Stack Developer, Cybersecurity & IT Professional",
+  avatar: "/images/avatar.jpeg",
+  email: "admin@jayprasad.com.np",
+  firstName: "Jay Prasad",
+  lastName: "Majhi",
+  name: `Jay Prasad Majhi`,
+  role: "Full-Stack Developer, Cybersecurity & IT Professional",
+  avatar: "/images/avatar.jpeg",
+  email: "it.assistant@usa.com",
+  location: "Asia/Kathmandu", // IANA time zone for Nepal
+  languages: ["English", "Nepali", "Hindi"],
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
 
 const social: Social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
-  // Set essentials: true for links you want to show on the about page
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Jaymaji",
+    link: "https://github.com/thebijaay",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/jay-prasad-majhi-277662237/",
+    link: "https://www.linkedin.com/in/thebijay/",
     essential: true,
   },
   {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "Website",
+    icon: "link",
+    link: "https://www.jayprasad.com.np",
+    link: "https://www.jayprasad.com.np",
     essential: true,
   },
   {
     name: "Email",
     icon: "email",
-    link: `mailto:${person.email}`,
+    link: `mailto:admin@jayprasad.com.np`,
     essential: true,
   },
 ];
@@ -58,26 +58,22 @@ const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  title: `${person.name}'s Full-Stack Developer`,
+  description: `Front-End Developer${person.role}`,
+  headline: <>Full-Stack Developer, Cybersecurity & IT Professional</>,
+  headline: <>Full-Stack Developer, Cybersecurity & IT Professionall</>,
   featured: {
-    display: true,
-    title: (
-      <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
-        <Text marginRight="4" onBackground="brand-medium">
-          Featured work
-        </Text>
-      </Row>
-    ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    display: false,
+    title: <></>,
+    href: "",
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
-</>
+      Dual-qualified professional with 3+ years of experience in admissions, visa processing, financial documentation, and IT support.
+Certified in Cybersecurity (CC), CompTIA CYSA+, and Microsoft Azure Fundamentals. Skilled in Salesforce CRM, student
+documentation, account reconciliation, and network security. Seeking to leverage business operations and IT expertise in a
+challenging role.
+    </>
   ),
 };
 
@@ -94,139 +90,113 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
-    link: "https://cal.com",
+    display: false,
+    link: "",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Dual-qualified professional with 3+ years of experience in admissions, visa processing, financial documentation, and IT support.
+Certified in Cybersecurity (CC), CompTIA CYSA+, and Microsoft Azure Fundamentals. Skilled in Salesforce CRM, student
+documentation, account reconciliation, and network security. Seeking to leverage business operations and IT expertise in a
+challenging role.
+        <br />
+        Interests: Technology, Tech Enthusiast, Tech Communities, Coding, Travel, Listening Music, Tech Gadgets
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "Oli & Associates Pvt. Ltd",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Admission Officer",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          <>Assisted students with university and course selection.</>,
+          <>Guided students through the application and admission process.</>,
+          <>Provided comprehensive support to ensure a smooth transition to their chosen university.</>,
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Sagarmatha Teens Club",
+        timeframe: "Nov 2018 - October 2021",
+        role: "Vice President",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Led various social initiatives and community service projects.</>,
+          <>Organized educational workshops and events for youth empowerment.</>,
+          <>Managed club activities and fostered a collaborative environment.</>,
         ],
-        images: [],
       },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
+    display: true,
+    title: "Education & Certifications",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Mechi Multiple Campus(Tribhuvan University)",
+        description: <>Bachelor of Business Studies-Running</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "National Education Board(NEB)",
+        description: <>High School</>,
+      },
+      {
+        name: "National Education Board(NEB)",
+        description: <>School Leaving Certificate</>,
+      },
+      {
+        name: "EC-Council",
+        description: <>Certified Ethical Hacker (CEH) - In Progress</>,
+      },
+      {
+        name: "Cisco Networking Academy",
+        description: <>Cybersecurity Essentials</>,
+      },
+      {
+      },
+      {
+        name: "EC-Council",
+        description: <>Certified Ethical Hacker (CEH) - In Progress</>,
+      },
+      {
+        name: "Cisco Networking Academy",
+        description: <>Cybersecurity Essentials</>,
+      },
+      {
+        name: "The Digital Investigator",
+        description: <>Certified Digital Forensic Investigator (CDFI)</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Technical Skills",
     skills: [
       {
-        title: "Figma",
+        title: "Cybersecurity",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Digital Forensics, Penetration Testing, Malware Analysis, Network Security, Web
+            Application Security.
+          </>
         ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Programming",
+        description: <>C, C++, Java, Python, JavaScript, PHP, HTML, CSS</>,
+      },
+      {
+        title: "Database",
+        description: <>MySQL, Oracle</>,
+      },
+      {
+        title: "Networking",
+        description: <>Cisco Packet Tracer, Wireshark, Nmap</>,
       },
     ],
   },
@@ -237,8 +207,6 @@ const blog: Blog = {
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
 };
 
 const work: Work = {
@@ -246,8 +214,6 @@ const work: Work = {
   label: "Work",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
 };
 
 const gallery: Gallery = {
@@ -255,10 +221,28 @@ const gallery: Gallery = {
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
   images: [
     {
+      src: "/images/gallery/gallery-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/gallery-2.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/gallery-3.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/gallery-4.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+     {
       src: "/images/gallery/horizontal-1.jpg",
       alt: "image",
       orientation: "horizontal",
@@ -278,27 +262,8 @@ const gallery: Gallery = {
       alt: "image",
       orientation: "vertical",
     },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
   ],
+  images: [],
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
