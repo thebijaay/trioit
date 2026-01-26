@@ -51,16 +51,16 @@ Edit src/resources/content.tsx for personal information
 Edit src/resources/once-ui.config.ts for styling
 ```
 
-Built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). Requires Node.js v18.17+.
+Built with [Once UI](https://jayprasad.com.np) for [Next.js](https://nextjs.org). Requires Node.js v18.17+.
 
 ## Documentation
 
-Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfolio/quick-start)
+Docs available at: [docs.once-ui.com](https://jayprasad.com.np/contact)
 
 ## Features
 
 ### Once UI
-- All tokens, components & features of [Once UI](https://once-ui.com)
+- All tokens, components & features of [The Bi Jay](https://jayprasad.com.np)
 
 ### SEO
 - Automatic open-graph and X image generation with next/og
@@ -69,7 +69,7 @@ Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfo
 ### Design
 - Responsive layout optimized for all screen sizes
 - Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
+- Endless customization options through [data attributes](https://jayprasad.com.np/themes))
 
 ### Content
 - Render sections conditionally based on the content file
@@ -107,4 +107,5 @@ See `LICENSE.txt` for more information.
 
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)
+
 
